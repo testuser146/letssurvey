@@ -40,4 +40,4 @@ test:
   password: root
 
 production:
- url: <%= ENV['DATABASE_url'] %>
+ adapter: postgresql
